@@ -1,0 +1,1469 @@
+
+
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+
+
+section#spotlight{}
+
+
+
+body{overflow-x: hidden;}
+section#spotlight header{
+	height: 50px;
+	padding-top: 17px;
+	font-family: 'GT-Eesti';
+
+
+}
+section#spotlight header section.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+section#spotlight header section.wrapper nav.left{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+section#spotlight header section.wrapper nav.left h1{
+	width: 200px;
+	margin-right: 30px;
+
+}
+section#spotlight header section.wrapper nav.left h1 a{
+	text-decoration: none;
+	display: block;
+}
+section#spotlight header section.wrapper nav.left h1 a img{
+	width: 90px;
+	display: block;
+	margin-left: 100px;
+}
+section#spotlight header section.wrapper nav.left ul{
+	display: flex;
+	margin-left: 200px;
+}
+section#spotlight header section.wrapper nav.left ul li{
+	list-style: none;
+	margin-right: 50px;
+}
+section#spotlight header section.wrapper nav.left ul li:last-child{
+	margin-right: 0;
+	}
+section#spotlight header section.wrapper nav.left ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500px;
+	color:  #000;
+
+}
+section#spotlight header section.wrapper nav.right{
+	display: flex;
+	justify-content: flex-start;
+}
+section#spotlight header section.wrapper nav.right ul{
+	display: flex;
+	margin-right: 30px;
+}
+section#spotlight header section.wrapper nav.right ul li{
+	 margin-right: 30px;
+    text-decoration: none;
+    list-style: none;
+    color:  #000;
+}
+section#spotlight header section.wrapper nav.right ul li:last-child{
+	margin-right: 0;
+}
+section#spotlight header section.wrapper nav.right ul li a{
+	text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px;
+    display: inline-block;
+    color:  #000;
+}
+section#spotlight header section.wrapper nav.right ul li a.button{
+	 border: solid 1px lightpink;
+     font-size: 16px;
+     background-color: lightpink;
+     font-weight: 600;
+    border-radius: 10px;
+    color: #FF7F50;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+section#spotlight section.content{}
+section#spotlight section.content section.wrapper{
+	display: flex;
+	justify-content: center;
+	padding: 30px 40px 0 60px;
+	width: 100%;
+}
+section#spotlight section.content section.wrapper div.left{
+	padding-left: 100px;
+}
+section#spotlight section.content section.wrapper div.left h1{
+	font-size: 50px;
+	font-weight: 400px;
+	font-family:'GT-Eesti' ;
+}
+section#spotlight section.content section.wrapper div.left p{
+	padding-bottom: 20px;
+	font-weight: 600px;
+	font-family: 'GT-Eesti' ;
+	font-size: 16px;
+	line-height: 1.5em;
+	position: relative;
+	bottom: 30px;
+	font-weight: 600;
+	
+}
+section#spotlight section.content section.wrapper div.left form{
+	display: flex;
+}
+section#spotlight section.content section.wrapper div.left form input[type="email"]{
+	width: 50%;
+	padding: 12px 24px;
+	background: #fff;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+}
+section#spotlight section.content section.wrapper div.left form input[type="submit"]{
+	 display: inline-block;
+    padding: 12px 16px;
+    color: #fff;
+    border: 1px solid;
+    background-color: #1e90ff;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    left: -50px;
+}
+
+section#spotlight section.content section.wrapper div.right{
+	
+}
+section#spotlight section.content section.wrapper div.right div.addpic img{
+	display: inline-block;
+	width: 60px;
+	position: relative;
+	z-index: 1;
+	left: 220px;
+	bottom: -40px;
+}
+section#spotlight section.content section.wrapper div.right div.play img{
+	display: inline-block;
+	width: 8px;
+	background-color: #f05e16;
+	border-radius: 50%;
+	padding: 30px 30px;
+	position: relative;
+	left: 298px;
+	z-index: 1;
+	bottom: 40px;
+
+}
+section#spotlight section.content section.wrapper div.right img{
+	display: inline-block;
+
+	position: relative;
+	bottom: 75px;
+	width: 70%;
+}
+section#spotlight section.footer{}
+section#spotlight section.footer section.wrapper{
+	text-align: center;
+	padding-top: 50px;
+}
+section#spotlight section.footer section.wrapper h5{
+	font-size: 14px;
+	font-family: 'GT-Eesti' ;
+	
+}
+section#spotlight section.footer section.wrapper div.img-container{
+	padding-top: 20px;
+}
+section#spotlight section.footer section.wrapper div.img-container img{
+	display: inline-block;
+	width: 80px;
+	margin-right: 60px;
+}
+section#spotlight section.footer section.wrapper div.img-container img:nth-child(4){
+	width: 30px;
+}
+section#spotlight section.footer section.wrapper div.img-container img:last-child{
+	width: 30px;
+	margin-right: 0;
+}
+section#spotlight section.footer section.wrapper div.img-container img:nth-child(2){
+	widows: 30px;
+}
+section#spotlight section.footer section.wrapper div.img-container img:nth-child(6){
+	widows: 30px;
+}
+section#spotlight section.footer section.wrapper div.img-container img:nth-child(7){
+	widows: 30px;
+}
+
+
+section#home{}
+section#home section.wrapper{
+}
+section#home section.wrapper section.top{
+	display: flex;
+	justify-content: center;
+    padding-top: 150px;
+
+	
+}
+section#home section.wrapper section.top div.left{
+}
+section#home section.wrapper section.top div.left img{
+	width: 80%;
+	display: inline-block;
+}
+
+section#home section.wrapper section.top div.right{
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+section#home section.wrapper section.top div.right div.img{
+	
+
+}
+section#home section.wrapper section.top div.right div.img img{
+	display: inline-block;
+	width: 28px;
+	padding: 10px 10px;
+	background-color: #FF7F50;
+	border-radius: 20px;
+}
+section#home section.wrapper section.top div.right h2{
+	font-size: 40px;
+	font-family:  'GT-Eesti';
+}
+section#home section.wrapper section.top div.right p{
+	font-size: 16px;
+	font-family:  'GT-Eesti';
+	line-height: 1.5em;
+	font-weight: 500;
+}
+section#home section.wrapper section.top div.right a.button{
+	 display: inline-block;
+    padding: 12px 16px;
+    color: #fff;
+    border: 1px solid;
+    background-color: #1e90ff;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:  'GT-Eesti';
+    border-bottom: 1px dotted;
+}
+section#home section.wrapper section.top div.right hr{
+    width: 200px ;
+	border: 1px dashed gray;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	position: relative;
+	left: -80px;
+	
+	
+}
+section#home section.wrapper section.top div.right div.quate{}
+section#home section.wrapper section.top div.right div.quate p{
+	font-style: italic;
+	color: gray;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+section#home section.wrapper section.top div.right div.quate span.name{
+	font-size: 12px;
+	color: grey;
+	font-family:  'GT-Eesti';
+	font-weight: 300;
+}
+
+section#home section.wrapper section.top div.right div.last-img{}
+section#home section.wrapper section.top div.right div.last-img img{
+	margin-top: 20px;
+}
+
+
+
+section#home section.wrapper section.middle{
+	display: flex;
+	justify-content: center;
+    padding-top: 150px;
+    background-color: #f5f5f5;
+    
+	
+}
+section#home section.wrapper section.middle div.left{
+}
+section#home section.wrapper section.middle div.left img{
+	width: 80%;
+	display: inline-block;
+}
+
+section#home section.wrapper section.middle div.right{
+	padding-bottom: 50px;
+}
+section#home section.wrapper section.middle div.right div.img{
+	
+
+}
+section#home section.wrapper section.middle div.right div.img img{
+	display: inline-block;
+	width: 28px;
+	padding: 10px 10px;
+	background-color: #ffd700;
+	border-radius: 20px;
+}
+section#home section.wrapper section.middle div.right h2{
+	font-size: 40px;
+	font-family:  'GT-Eesti';
+}
+section#home section.wrapper section.middle div.right p{
+	font-size: 16px;
+	font-family:  'GT-Eesti';
+	line-height: 1.5em;
+	font-weight: 500;
+}
+section#home section.wrapper section.middle div.right a.button{
+	 display: inline-block;
+    padding: 12px 16px;
+    color: #fff;
+    border: 1px solid;
+    background-color: #1e90ff;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:  'GT-Eesti';
+    border-bottom: 1px dotted;
+}
+section#home section.wrapper section.middle div.right hr{
+    width: 200px ;
+	border: 1px dashed gray;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	position: relative;
+	left: -80px;
+	
+	
+}
+section#home section.wrapper section.middle div.right div.quate{}
+section#home section.wrapper section.middle div.right div.quate p{
+	font-style: italic;
+	color: gray;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+section#home section.wrapper section.middle div.right div.quate span.name{
+	font-size: 12px;
+	color: grey;
+	font-family:  'GT-Eesti';
+	font-weight: 300;
+}
+
+section#home section.wrapper section.middle div.right div.last-img{}
+section#home section.wrapper section.middle div.right div.last-img img{
+	margin-top: 20px;
+}
+
+
+section#home section.wrapper section.bottom{
+	display: flex;
+	justify-content: center;
+    padding-top: 150px;
+
+
+	
+}
+section#home section.wrapper section.bottom div.left{
+}
+section#home section.wrapper section.bottom div.left img{
+	width:80%;
+	display: inline-block;
+}
+
+section#home section.wrapper section.bottom div.right{
+	padding-left: 50px;
+	padding-bottom: 50px;
+
+}
+section#home section.wrapper section.bottom div.right div.img{
+	
+
+}
+section#home section.wrapper section.bottom div.right div.img img{
+	display: inline-block;
+	width: 28px;
+	padding: 10px 10px;
+	background-color: #3cb371;
+	border-radius: 20px;
+}
+section#home section.wrapper section.bottom div.right h2{
+	font-size: 40px;
+	font-family:  'GT-Eesti';
+}
+section#home section.wrapper section.bottom div.right p{
+	font-size: 16px;
+	font-family:  'GT-Eesti';
+	line-height: 1.5em;
+	font-weight: 500;
+}
+section#home section.wrapper section.bottom div.right a.button{
+	 display: inline-block;
+    padding: 12px 16px;
+    color: #fff;
+    border: 1px solid;
+    background-color: #1e90ff;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:  'GT-Eesti';
+    border-bottom: 1px dotted;
+}
+section#home section.wrapper section.bottom div.right hr{
+    width: 200px ;
+	border: 1px dashed gray;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	position: relative;
+	left: -60px;
+	
+	
+}
+section#home section.wrapper section.bottom div.right div.quate{}
+section#home section.wrapper section.bottom div.right div.quate p{
+	font-style: italic;
+	color: gray;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+section#home section.wrapper section.bottom div.right div.quate span.name{
+	font-size: 12px;
+	color: grey;
+	font-family:  'GT-Eesti';
+	font-weight: 300;
+}
+
+section#home section.wrapper section.bottom div.right div.last-img{}
+section#home section.wrapper section.bottom div.right div.last-img img{
+	margin-top: 20px;
+}
+
+
+section#videopg{
+	padding-top: 100px;
+}
+section#videopg section.wrapper{
+	
+}
+section#videopg section.wrapper h2{
+	font-size: 35px;
+	font-family:  'GT-Eesti';
+	padding-left: 275px;
+	padding-top: 40px;
+}
+section#videopg section.wrapper div.container{
+	display: flex;
+	justify-content: center;
+
+}
+section#videopg section.wrapper div.container div.one{}
+section#videopg section.wrapper div.container div.one div.play{
+	
+
+}
+section#videopg section.wrapper div.container div.one div.play img{
+	display: inline-block;
+	width: 8px;
+	padding: 16px 16px;
+	background-color: #FFF;
+	border-radius: 50%;
+	position: relative;
+	bottom: -60px;
+	left: 250px;
+	
+
+	
+
+}
+section#videopg section.wrapper div.container div.one img{
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+	border-radius: 4px;
+
+}
+section#videopg section.wrapper div.container div.one div.logo{
+	padding-left: 10px;
+}
+section#videopg section.wrapper div.container div.one div.logo img{
+	display: inline-block;
+	padding: 13px 35px 13px 35px;
+	background-color: #FFF;
+	border-radius:7px;
+	position: relative;
+	bottom: 60px;
+	width: 20px;
+}
+section#videopg section.wrapper div.container div.one p{
+	font-size: 17px;
+	font-family:  'GT-Eesti';
+	line-height: 1.5em;
+	font-weight: bold;
+	position: relative;
+	bottom: 50px;
+}
+
+
+section#videopg section.wrapper div.container div.two{}
+section#videopg section.wrapper div.container div.two div.play{
+	background-color: #fff;
+}
+section#videopg section.wrapper div.container div.two div.play img{
+	display: inline-block;
+	width: 8px;
+	padding: 16px 16px;
+	background-color: #FFF;
+	border-radius: 50%;
+	position: relative;
+	bottom: -60px;
+	left: 250px;
+}
+section#videopg section.wrapper div.container div.two img{
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+	border-radius: 4px;
+}
+section#videopg section.wrapper div.container div.two div.logo{
+	padding-left: 10px;
+}
+section#videopg section.wrapper div.container div.two div.logo img{
+	display: inline-block;
+	width: 40px;
+	padding: 16px 25px 16px 25px;
+	background-color: #FFF;
+	border-radius:7px;
+	position: relative;
+	bottom: 60px;
+}
+section#videopg section.wrapper div.container div.two p{
+	font-size: 17px;
+	font-family:  'GT-Eesti';
+	line-height: 1.5em;
+	font-weight: bold;
+	position: relative;
+	bottom: 50px;
+}
+
+
+section#videopg section.wrapper div.container div.three{}
+section#videopg section.wrapper div.container div.three div.play{
+	background-color: #fff;
+}
+section#videopg section.wrapper div.container div.three div.play img{
+	display: inline-block;
+	width: 8px;
+	padding: 16px 16px;
+	background-color: #FFF;
+	border-radius: 50%;
+	position: relative;
+	bottom: -60px;
+	left: 250px;
+}
+section#videopg section.wrapper div.container div.three img{
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+	border-radius: 4px;
+}
+section#videopg section.wrapper div.container div.three div.logo{
+	padding-left: 10px;
+}
+section#videopg section.wrapper div.container div.three div.logo img{
+	display: inline-block;
+	width: 60px;
+	padding: 16px 16px;
+	background-color: #FFF;
+	border-radius:7px;
+	position: relative;
+	bottom: 60px;
+	
+}
+section#videopg section.wrapper div.container div.three p{
+	font-size: 17px;
+	font-family:  'GT-Eesti';
+	line-height: 1.5em;
+	font-weight: bold;
+	position: relative;
+	bottom: 50px;
+}
+section#videopg section.wrapper section.people{
+	display: flex;
+	justify-content: center;
+	padding-top: 130px;
+
+}
+}
+section#videopg section.wrapper section.people div.left{}
+section#videopg section.wrapper section.people div.left img{
+     margin-right: 90px;
+     border-radius: 3px;
+	
+}
+section#videopg section.wrapper section.people div.left div.hogan{
+	padding-left: 10px;
+}
+section#videopg section.wrapper section.people div.left div.hogan img{
+	display: inline-block;
+	padding: 10px 25px 10px 25px;
+	background-color: #FFF;
+	border-radius:7px;
+	position: relative;
+	bottom: 60px;
+	width: 40px;
+}
+section#videopg section.wrapper section.people div.left p{
+	font-size: 17px;
+	font-family:  'GT-Eesti';
+	line-height: 1.2em;
+	font-weight: bold;
+	position: relative;
+	bottom: 50px
+}
+section#videopg section.wrapper section.people div.left span.name{
+	font-size: 12px;
+	font-weight: 700;
+	position: relative;
+	bottom: 50px;
+	font-family:  'GT-Eesti';
+}
+section#videopg section.wrapper section.people div.left h4{
+	font-size: 12px;
+	color: grey;
+	font-weight: 400;
+	position: relative;
+	bottom: 65px;
+	font-family:  'GT-Eesti';
+}
+section#videopg section.wrapper section.people div.left h5{
+	font-size: 12px;
+	font-weight: 600;
+	position: relative;
+	bottom: 80px;
+	font-family:  'GT-Eesti';
+}
+
+
+section#videopg section.wrapper section.people{
+	display: flex;
+	justify-content: center;
+	padding-top: 130px;
+
+}
+
+section#videopg section.wrapper section.people div.right{
+	padding-left: 20px;
+}
+section#videopg section.wrapper section.people div.right img{
+	border-radius: 3px;
+    
+	
+}
+section#videopg section.wrapper section.people div.right div.bet{
+	padding-left: 10px;
+
+}
+section#videopg section.wrapper section.people div.right div.bet img{
+	display: inline-block;
+	padding: 12px 17px 12px 17px;
+	background-color: #FFF;
+	border-radius:7px;
+	position: relative;
+	bottom: 60px;
+	width: 70px;
+}
+section#videopg section.wrapper section.people div.right p{
+	font-size: 17px;
+	font-family:  'GT-Eesti';
+	line-height: 1.2em;
+	font-weight: bold;
+	position: relative;
+	bottom: 50px
+}
+section#videopg section.wrapper section.people div.right span.name{
+	font-size: 12px;
+	font-weight: 700;
+	position: relative;
+	bottom: 50px;
+	font-family:  'GT-Eesti';
+}
+section#videopg section.wrapper section.people div.right h4{
+	font-size: 12px;
+	color: grey;
+	font-weight: 400;
+	position: relative;
+	bottom: 65px;
+	font-family:  'GT-Eesti';
+}
+section#videopg section.wrapper section.people div.right h5{
+	font-size: 12px;
+	font-weight: 600;
+	position: relative;
+	bottom: 80px;
+	font-family:  'GT-Eesti';
+	bord
+}
+
+section#freedompg{}
+section#freedompg section.wrapper{
+	background-color: #f5f5f5;
+}
+section#freedompg section.wrapper div.ul-container{}
+section#freedompg section.wrapper div.ul-container h1{
+	font-size: 40px;
+	font-family:  'GT-Eesti';
+	text-align: center;
+	padding-top: 120px;
+
+}
+section#freedompg section.wrapper div.ul-container ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 50;
+}
+section#freedompg section.wrapper div.ul-container ul li{
+	width: 28%;
+	list-style: none;
+	border-right: 1px dashed gray;
+	padding: 10px 10px;
+	padding-top: 100px;
+}
+section#freedompg section.wrapper div.ul-container ul li:last-child{
+	border-right: none;
+}
+section#freedompg section.wrapper div.ul-container ul li:nth-child(3){
+	border-right: none;
+}
+
+
+section#freedompg section.wrapper div.ul-container ul li img{
+	display: inline-block;
+	width: 40%;
+	padding-left: 130px;
+}
+section#freedompg section.wrapper div.ul-container ul li h3{
+	text-align: center;
+	font-family:  'GT-Eesti';
+}
+section#freedompg section.wrapper div.ul-container ul li p{
+	text-align: center;
+	font-family:  'GT-Eesti';
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.5em;
+	padding: 0px 30px 0px 30px;
+}
+
+section#freedompg section.wrapper div.box{
+	padding-top: 0;
+}
+section#freedompg section.wrapper div.box div.star{}
+section#freedompg section.wrapper div.box div.star img{
+	display: inline-block;
+	width: 16px;
+	background-color: #fff;
+	border-radius: 40%;
+    padding: 16px 16px;;
+	 position: relative;
+    left: 570px;
+    top: 100px;
+}
+section#freedompg section.wrapper div.box section.text{
+	padding-left: 35%;
+	padding-top: 60px;
+}
+section#freedompg section.wrapper div.box section.text div{
+	background-color: #b0e0e6;
+	border-radius: 4px;
+	height: 100px;
+	width: 45%;
+
+	
+}
+section#freedompg section.wrapper div.box section.text div p{
+	font-family:  'GT-Eesti';
+	line-height: 1.5em;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 30px 30px;
+}
+
+section#freedompg section.wrapper div.box section.text a.button{
+	border-radius: 4px;
+    padding: 12px 16px;
+    color: #fff;
+    background-color: #1e90ff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: -70px;
+
+}
+section#solutionpg{}
+section#solutionpg section.wrapper{
+
+}
+section#solutionpg section.wrapper h3{
+	font-family:  'GT-Eesti';
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+section#solutionpg section.wrapper div.container{
+	display: flex;
+	justify-content: center;
+
+	
+}
+section#solutionpg section.wrapper div.container div.left{
+	background-color: #b0e0e6;
+	width: 20%;
+	padding: 0px 12px;
+	border-radius: 8px;
+	margin-right: 35px;
+}
+section#solutionpg section.wrapper div.container div.left div.studio{}
+section#solutionpg section.wrapper div.container div.left div.studio img{
+	display: inline-block;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 30%;
+    padding: 18px 18px;
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+}
+section#solutionpg section.wrapper div.container div.left h5{
+	font-family:  'GT-Eesti';
+	font-size: 25px;
+	font-weight: 800;
+	text-align: center;
+	position: relative;
+	bottom: -35px;
+
+}
+section#solutionpg section.wrapper div.container div.left p{
+	font-family:  'GT-Eesti';
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.5em;
+	position: relative;
+	bottom: -20px;
+
+}
+section#solutionpg section.wrapper div.container div.left a.button{
+	border-radius: 10px;
+	font-family:  'GT-Eesti';
+	font-weight: 500;
+	font-size: 14px;
+    padding: 12px 26px;
+    color: #fff;
+    background-color: #0000ff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    bottom: -40px;
+}
+section#solutionpg section.wrapper div.container div.left img{
+	display: inline-block;
+	width: 90%;
+	padding-left: 25px;
+	position: relative;
+	bottom: -80px;
+}
+
+
+
+section#solutionpg section.wrapper div.container div.middle{
+	background-color: #ffe4ca;
+	width: 20%;
+	padding: 0px 12px;
+	border-radius: 8px;
+	margin-right: 35px;
+}
+section#solutionpg section.wrapper div.container div.middle div.Lightbox{}
+section#solutionpg section.wrapper div.container div.middle div.Lightbox img{
+	display: inline-block;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 30%;
+    padding: 18px 18px;
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+}
+section#solutionpg section.wrapper div.container div.middle h5{
+	font-family:  'GT-Eesti';
+	font-size: 25px;
+	font-weight: 800;
+	text-align: center;
+	position: relative;
+	bottom: -35px;
+
+}
+section#solutionpg section.wrapper div.container div.middle p{
+	font-family:  'GT-Eesti';
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.5em;
+	position: relative;
+	bottom: -20px;
+
+}
+section#solutionpg section.wrapper div.container div.middle a.button{
+	border-radius: 10px;
+	font-family:  'GT-Eesti';
+	font-weight: 500;
+	font-size: 14px;
+    padding: 12px 26px;
+    color: #fff;
+    background-color: #ffa500;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    bottom: -40px;
+}
+section#solutionpg section.wrapper div.container div.middle img{
+	display: inline-block;
+	width: 90%;
+	padding-left: 25px;
+	position: relative;
+	bottom: -80px;
+}
+
+	
+
+section#solutionpg section.wrapper div.container div.right{
+	background-color: #ffe4e1;
+	width: 20%;
+	padding: 0px 12px;
+	border-radius: 8px;
+	margin-right: 35px;
+}
+section#solutionpg section.wrapper div.container div.right div.Wavi{}
+section#solutionpg section.wrapper div.container div.right div.Wavi img{
+	display: inline-block;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 30%;
+    padding: 18px 18px;
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+}
+section#solutionpg section.wrapper div.container div.right h5{
+	font-family:  'GT-Eesti';
+	font-size: 25px;
+	font-weight: 800;
+	text-align: center;
+	position: relative;
+	bottom: -35px;
+
+}
+section#solutionpg section.wrapper div.container div.right p{
+	font-family:  'GT-Eesti';
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.5em;
+	position: relative;
+	bottom: -20px;
+
+}
+section#solutionpg section.wrapper div.container div.right a.button{
+	border-radius: 10px;
+	font-family:  'GT-Eesti';
+	font-weight: 500;
+	font-size: 14px;
+    padding: 12px 26px;
+    color: #fff;
+    background-color: #ff4500;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    bottom: -40px;
+}
+section#solutionpg section.wrapper div.container div.right img{
+	display: inline-block;
+	width: 100%;
+	padding-left: 17px;
+	position: relative;
+	bottom: -100px;
+}
+
+section#resources{}
+section#resources section.wrapper{
+	padding-top: 70px;
+}
+section#resources section.wrapper h3{
+	font-size: 40px;
+	font-family:'GT-Eesti';
+	
+	padding-left: 200px;
+
+}
+section#resources section.wrapper div.container{
+	display: flex;
+	justify-content: center;
+}
+section#resources section.wrapper div.container div.left{}
+section#resources section.wrapper div.container div.left div.img{}
+section#resources section.wrapper div.container div.left div.img img{
+	display: inline-block;
+	width: 90%;
+	border-radius: 8px;
+
+}
+section#resources section.wrapper div.container div.left h6{
+	color: #0000ff;
+	font-weight: 600;
+	font-family:'GT-Eesti';
+}
+section#resources section.wrapper div.container div.left p{
+	font-weight: bold;
+	font-family:'GT-Eesti';
+	font-size: 18px;
+}
+section#resources section.wrapper div.container div.left a{
+	font-family:'GT-Eesti';
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+    
+}
+section#resources section.wrapper a.button{
+
+    border-radius: 5px;
+	font-family:  'GT-Eesti';
+	font-weight: 500;
+	font-size: 14px;
+    padding: 12px 26px;
+    color: #fff;
+    background-color: #0000ff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 650px;
+    bottom: -40px;
+
+}
+
+
+section#resources section.wrapper div.container div.middle{}
+section#resources section.wrapper div.container div.middle div.img{}
+section#resources section.wrapper div.container div.middle div.img img{
+	display: inline-block;
+	width: 90%;
+	border-radius: 8px;
+	margin-right: 20px;
+
+}
+section#resources section.wrapper div.container div.middle h6{
+	color: #000;
+	font-weight: 600;
+	font-family:'GT-Eesti';
+}
+section#resources section.wrapper div.container div.middle p{
+	font-weight: bold;
+	font-family:'GT-Eesti';
+	font-size: 18px;
+}
+section#resources section.wrapper div.container div.middle a{
+	font-family:'GT-Eesti';
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+    
+}
+
+section#resources section.wrapper div.container div.right{}
+section#resources section.wrapper div.container div.right div.img{}
+section#resources section.wrapper div.container div.right div.img img{
+	display: inline-block;
+	width: 95%;
+	border-radius: 8px;
+
+}
+section#resources section.wrapper div.container div.right h6{
+	color: #000;
+	font-weight: 600;
+	font-family:'GT-Eesti';
+}
+section#resources section.wrapper div.container div.right p{
+	font-weight: bold;
+	font-family:'GT-Eesti';
+	font-size: 18px;
+}
+section#resources section.wrapper div.container div.right a{
+	font-family:'GT-Eesti';
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+    
+}
+
+section#help-line{
+	padding-top: 150px;
+}
+section#help-line section.wrapper{
+	background-color: #000;
+	font-family:'GT-Eesti';
+	display: flex;
+	justify-content: center;
+
+}
+section#help-line section.wrapper div.left{
+	margin-right: 100px;
+
+}
+section#help-line section.wrapper div.left hr{
+	border: 1px dashed gray;
+	width: 50%;
+	margin-left: 6px;
+	margin-top: 20px;
+}
+section#help-line section.wrapper div.left h3{
+	color: #fff;
+	font-size: 40px;
+	padding-top: 40px;
+}
+section#help-line section.wrapper div.left p{
+	color: grey;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5em;
+	
+}
+section#help-line section.wrapper div.left h5{
+	color: #fff;
+	font-size: 16px;
+}
+section#help-line section.wrapper div.left div.quate{}
+section#help-line section.wrapper div.left div.quate p{
+	color: #fff;
+	font-style: italic;
+}
+section#help-line section.wrapper div.left div.quate span.name{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+section#help-line section.wrapper div.left div.quate h6{
+	color: grey;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+section#help-line section.wrapper div.left div.img{
+
+}
+section#help-line section.wrapper div.left div.img img{
+	display: inline-block;
+	border-radius: 50%;
+}
+section#help-line section.wrapper div.left div.img img:nth-child(1){
+	border: 2px solid #ff8c00;
+	padding: 2px 2px;
+}
+section#help-line section.wrapper div.left div.logos{
+	display: flex;
+}
+section#help-line section.wrapper div.left div.logos img{
+	display: inline-block;
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-right: 30px;
+}
+section#help-line section.wrapper div.left div.logos img:nth-child(1){
+	width: 50px;
+}
+section#help-line section.wrapper div.left div.logos img:nth-child(2){
+	width: 90px;
+}
+section#help-line section.wrapper div.left div.logos img:nth-child(3){
+	width: 70px;
+}
+section#help-line section.wrapper div.left div.logos img:last-child{
+	width: 60px;
+}
+
+
+
+
+
+
+
+section#help-line section.wrapper div.right{
+	padding-top: 70px;
+}
+section#help-line section.wrapper div.right div.wrapper{
+	background-color: #fff;
+	padding: 150px 40px 90px 40px;
+	border-radius: 6px;
+
+
+}
+section#help-line section.wrapper div.right div.wrapper h4{
+    position: relative;
+    bottom: 120px;
+    font-size: 20px;
+}
+section#help-line section.wrapper div.right div.wrapper div.input{}
+section#help-line section.wrapper div.right div.wrapper div.input div.first{
+	 position: relative;
+    bottom: 120px;
+}
+section#help-line section.wrapper div.right div.wrapper div.input div.first form input[type="email"]{
+	 padding: 5px 12px;
+	 font-family:'GT-Eesti';
+}
+section#help-line section.wrapper div.right div.wrapper div.input div.first form input[type="name"]{
+	 padding: 5px 9px;
+	 font-family:'GT-Eesti';
+}
+section#help-line section.wrapper div.right div.wrapper div.input div.second{
+	 position: relative;
+    bottom: 110px;
+}
+section#help-line section.wrapper div.right div.wrapper div.input div.second form input[type="name"]{
+	 padding: 5px 12px;
+	 font-family:'GT-Eesti';
+}
+section#help-line section.wrapper div.right div.wrapper div.input div.second form input[type="company"]{
+	 padding: 5px 8px;
+	 font-family:'GT-Eesti';
+}
+section#help-line section.wrapper div.right div.wrapper div.select{}
+section#help-line section.wrapper div.right div.wrapper div.select div.first{
+	 position: relative;
+    bottom: 100px;
+
+}
+section#help-line section.wrapper div.right div.wrapper div.select div.second{
+	 position: relative;
+    bottom: 90px;
+}
+section#help-line section.wrapper div.right div.wrapper div.select div.first form select{
+	border-color: grey;
+	color: grey;
+	padding:5px 32px ;
+	font-family:'GT-Eesti';
+
+}
+section#help-line section.wrapper div.right div.wrapper div.select div.first form select:last-child{
+	padding: 5px 52px;
+	font-family:'GT-Eesti';
+
+}
+
+section#help-line section.wrapper div.right div.wrapper div.select div.second form select{
+	border-color: grey;
+	color: grey;
+	padding:5px 50px ;
+	font-family:'GT-Eesti';
+}
+section#help-line section.wrapper div.right div.wrapper div.select div.third{
+	 position: relative;
+    bottom: -20px;
+}
+section#help-line section.wrapper div.right div.wrapper div.third form{
+	color: grey;
+	font-family:'GT-Eesti';
+	font-size: 14px;
+}
+section#help-line section.wrapper div.right div.wrapper div.third form input[type="checkbox"]{
+
+}
+
+
+}
+section#help-line section.wrapper div.right div.wrapper div.select div.third form label{
+	font-size: 14px;
+	color: grey;
+	font-family:'GT-Eesti';
+}
+section#help-line section.wrapper div.right div.wrapper div.select div.third form label a{
+	
+	color: grey;
+	font-family:'GT-Eesti';
+}
+section#help-line section.wrapper div.right div.wrapper div.select div.third form label a.one{
+    
+}
+section#help-line section.wrapper div.right div.wrapper div.select a.button{
+    border-radius: 5px;
+	font-family:  'GT-Eesti';
+	font-weight: 700;
+	font-size: 14px;
+    padding: 12px 150px;
+    color: #fff;
+    background-color: #0000ff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 2 0px;
+    bottom: -70px;
+}
+
+section#footer{
+    padding-top: 100px;
+}
+section#footer section.wrapper{
+	display: flex;
+	justify-content: center;
+	
+
+}
+section#footer section.wrapper div.first{
+	margin-right: 80px;
+}
+section#footer section.wrapper div.first h3{
+	font-size: 23px;
+	font-weight: 400;
+	font-family:'GT-Eesti';
+	padding-bottom: 25px;
+}
+section#footer section.wrapper div.first section.images{
+	display: flex;
+	padding-bottom: 30px;
+}
+section#footer section.wrapper div.first section.images div.pic img{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 8px 8px;
+    width: 13px;
+    background-color: #ececec;
+    border-radius: 20%;
+}
+section#footer section.wrapper div.first section.images div.pic img:nth-child(4){
+	padding: 10px 12px;
+}
+section#footer section.wrapper div.first div.note{
+	display: flex;
+}
+section#footer section.wrapper div.first div.note img{
+	display: inline-block;
+	width: 16px;
+	margin-right: 10px;
+
+}
+section#footer section.wrapper div.first div.note small{
+	font-family:'GT-Eesti';
+	font-size: 14px;
+	font-weight: 700;
+
+}
+section#footer section.wrapper div.first div.language{
+	margin-top: 20px;
+}
+section#footer section.wrapper div.first div.language span{
+	font-family:'GT-Eesti';
+	font-size: 14px;
+	font-weight: 300;
+	margin-right: 15px;
+
+}
+section#footer section.wrapper div.second{
+	display: flex;
+	padding-bottom: 150px;
+}
+section#footer section.wrapper div.second div.item{}
+section#footer section.wrapper div.second div.item ul{}
+section#footer section.wrapper div.second div.item ul li{
+	list-style: none;
+	padding-bottom: 15px;
+	font-family:'GT-Eesti';
+	font-size: 14px;
+	font-weight: 600;
+}
+section#footer section.wrapper div.second div.item ul li img{
+	display: inline-block;
+	width: 18px;
+	margin-right: 10px;
+}
